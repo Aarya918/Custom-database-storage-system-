@@ -200,36 +200,65 @@ The summarized measurements are saved to benchmark_results.csv.
 
 ## 12. Results
 
-Actual measured values must be taken from benchmark_results.csv.
+| Dataset Size | Operation | Average (μs) | P50 (μs) | P95 (μs) |
+|---:|---|---:|---:|---:|
+| 100 | GET | 20.653 | 19.875 | 21.500 |
+| 100 | PUT | 31.474 | 30.459 | 38.334 |
+| 100 | DELETE | 29.222 | 27.667 | 36.459 |
+| 500 | GET | 57.319 | 56.750 | 61.167 |
+| 500 | PUT | 27.647 | 26.105 | 31.834 |
+| 500 | DELETE | 27.725 | 26.500 | 32.417 |
+| 1000 | GET | 100.658 | 98.625 | 110.042 |
+| 1000 | PUT | 37.671 | 39.146 | 44.875 |
+| 1000 | DELETE | 30.029 | 29.666 | 37.583 |
+| 5000 | GET | 583.018 | 546.062 | 586.834 |
+| 5000 | PUT | 45.980 | 43.916 | 58.542 |
+| 5000 | DELETE | 28.162 | 26.563 | 36.958 |
 
-| Dataset size | Operation | Average | P50 | P95 |
-|---|---|---|---|---|
-| 100 | GET | To be filled | To be filled | To be filled |
-| 100 | PUT | To be filled | To be filled | To be filled |
-| 100 | DELETE | To be filled | To be filled | To be filled |
-| 500 | GET | To be filled | To be filled | To be filled |
-| 500 | PUT | To be filled | To be filled | To be filled |
-| 500 | DELETE | To be filled | To be filled | To be filled |
-| 1000 | GET | To be filled | To be filled | To be filled |
-| 1000 | PUT | To be filled | To be filled | To be filled |
-| 1000 | DELETE | To be filled | To be filled | To be filled |
-| 5000 | GET | To be filled | To be filled | To be filled |
-| 5000 | PUT | To be filled | To be filled | To be filled |
-| 5000 | DELETE | To be filled | To be filled | To be filled |
+
 
 ### Graphs
 
-P50 Latency:
-plots/latency_vs_dataset_size_p50.png
+### Latency by Sequence
 
-P95 Latency:
-plots/latency_vs_dataset_size_p95.png
+![Latency Graph](plots/latency_by_sequence.png)
 
-Benchmark Operation Distribution:
-plots/benchmark_operation_distribution.png
+The following graphs visualize the benchmark results and operation performance of the LSM-Tree storage system.
 
-The measured graphs show how latency changes across dataset
-sizes in this particular implementation and benchmark environment.
+#### 1. Benchmark Operation Distribution
+
+![Benchmark Operation Distribution](plots/benchmark_operation_distribution.png)
+
+#### 2. Latency by Sequence
+
+![Latency by Sequence](plots/latency_by_sequence.png)
+
+#### 3. P50 Latency vs Dataset Size
+
+![P50 Latency](plots/latency_vs_dataset_size_p50.png)
+
+#### 4. P95 Latency vs Dataset Size
+
+![P95 Latency](plots/latency_vs_dataset_size_p95.png)
+
+#### 5. Latency vs Dataset Size
+
+![Latency vs Dataset Size](plots/latency_vs_size.png)
+
+#### 6. Operation Distribution
+
+![Operation Distribution](plots/operation_distribution.png)
+
+
+#### P50 Latency
+![P50 Latency](plots/latency_vs_dataset_size_p50.png)
+
+#### P95 Latency
+![P95 Latency](plots/latency_vs_dataset_size_p95.png)
+
+
+
+The measured graphs show how latency changes across dataset sizes in this particular implementation and benchmark environment.
 
 ## 13. Advantages
 
