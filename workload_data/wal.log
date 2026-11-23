@@ -2,3 +2,7 @@
 {"seq": 2, "op": "PUT", "key": "user:1002", "value": "bob"}
 {"seq": 3, "op": "PUT", "key": "user:1001", "value": "alice_v2"}
 {"seq": 4, "op": "DELETE", "key": "user:1002", "value": null}
+{"seq": 5, "op": "PUT", "key": "user:1001", "value": "alice"}
+{"seq": 6, "op": "PUT", "key": "user:1002", "value": "bob"}
+{"seq": 7, "op": "PUT", "key": "user:1001", "value": "alice_v2"}
+{"seq": 8, "op": "DELETE", "key": "user:1002", "value": null}
