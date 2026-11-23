@@ -1,0 +1,4 @@
+{"seq": 1, "op": "PUT", "key": "user:1001", "value": "alice"}
+{"seq": 2, "op": "PUT", "key": "user:1002", "value": "bob"}
+{"seq": 3, "op": "PUT", "key": "user:1001", "value": "alice_v2"}
+{"seq": 4, "op": "DELETE", "key": "user:1002", "value": null}
