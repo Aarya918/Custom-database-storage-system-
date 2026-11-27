@@ -1,3 +1,19 @@
+# Custom Database Storage System
+
+🚀 **Live Demo:** https://y8ursrdddr7lneezooezp2.streamlit.app/
+
+**GitHub Repository:** https://github.com/Aarya918/Custom-database-storage-system-
+
+A Python and Streamlit-based LSM-Tree Key-Value Database.
+
+### Features
+- PUT – Insert data
+- GET – Search data
+- DELETE – Delete data
+- Database dashboard
+- Maintenance operations
+
+**Technology Stack:** Python, Streamlit, Pandas, Matplotlib.
 
 # Custom Database Storage System — LSM-Tree
 
