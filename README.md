@@ -235,6 +235,4 @@ compaction.
 It provides a foundation for understanding database storage internals
 and evaluating basic performance characteristics.
 
-## Author
 
-Aarya918
